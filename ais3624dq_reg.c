@@ -318,8 +318,8 @@ int32_t ais3624dq_data_rate_get(const stmdev_ctx_t *ctx,
       *val = AIS3624DQ_ODR_1Hz;
       break;
 
-    case AIS3624DQ_ODR_5Hz2:
-      *val = AIS3624DQ_ODR_5Hz2;
+    case AIS3624DQ_ODR_2Hz:
+      *val = AIS3624DQ_ODR_2Hz;
       break;
 
     case AIS3624DQ_ODR_5Hz:
